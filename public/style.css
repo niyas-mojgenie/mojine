@@ -112,6 +112,12 @@ body {
   margin-right: 70px;
 }
 
+.flexxxxx {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
 .flex {
   margin-top: 50px;
   margin-left: 850px;
