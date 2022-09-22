@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 100px;
+  position: sticky;
+  margin-top: 0;
+
+  width: 100%;
+  background-color: $bgc;
+  .logo {
+    height: 70px;
+    
+    padding-left: 80px;
+  }
+  
+}
+.link{
+  &-item{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    padding-right: 40px;
+    
+  }
+}

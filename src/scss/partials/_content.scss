@@ -1,0 +1,31 @@
+.content{
+    
+   
+    &-head{
+        padding-top: 50px;
+        margin-left: 70px;
+        font-size: 40px;
+        font-family: sans-serif;
+        
+    }
+    &-head::before{
+        position: absolute;
+        content: "";
+        
+        background-color: black;
+        bottom: 100px;
+        width: 53px;
+        height: 3px;
+        
+
+        
+        
+    }
+    &-para{
+        margin-top: 50px;
+        margin-left: 70px;
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 400;
+    }
+}
