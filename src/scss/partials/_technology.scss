@@ -1,12 +1,36 @@
 .technology{
+    background-color: #f7f7f7;
+    display: flex;
+    &-para{
+        width: 750px;
+        height: 600px;
+        // border: 1px solid black;
+
+    }
+    &-box{
+        width: 600px;
+        height: 600px;
+        // border: 1px solid black;
+
+    }
     &-head{
         margin-left: 70px;
         font-family: sans-serif;
         font-size: 40px;
     }
-    &-para{
+    &-head::before{
+        position: absolute;
+        content: "";
+        
+        background-color: black;
+        bottom: -750px;
+        width: 53px;
+        height: 3px;
+      }
+
+    &-pa{
         margin-left: 70px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 20px;
+        font-family: 'Inter', sans-serif;
     }
 }

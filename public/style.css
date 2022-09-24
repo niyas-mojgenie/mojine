@@ -73,104 +73,459 @@ body {
   margin-top: 50px;
   margin-left: 70px;
   font-size: 20px;
-  font-family: sans-serif;
-  font-weight: 400;
+  font-family: "Inter", sans-serif;
 }
 
 .container {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 .container-flexbox {
   width: 250px;
-  height: 500px;
+  height: 470px;
   border: 0.1px solid black;
   background-color: white;
   margin-left: 70px;
 }
 .container-flexboxx {
   width: 250px;
-  height: 500px;
+  height: 470px;
   border: 0.1px solid black;
   background-color: white;
   justify-content: space-between;
 }
 .container-flexboxxx {
   width: 250px;
-  height: 500px;
+  height: 470px;
   border: 0.1px solid black;
   background-color: white;
   justify-content: space-between;
 }
 .container-flexboxxxx {
   width: 250px;
-  height: 500px;
+  height: 470px;
   border: 0.1px solid black;
   background-color: white;
   justify-content: space-between;
   margin-right: 70px;
 }
-
-.flexxxxx {
-  width: 100px;
-  height: 100px;
-  border: 1px solid black;
+.container-img {
+  margin-top: 30px;
+  margin-left: 30px;
 }
-
-.flex {
+.container-head {
+  margin-left: 30px;
+  font-family: sans-serif;
+}
+.container-head::before {
+  position: absolute;
+  content: "";
+  background-color: black;
+  bottom: -330px;
+  width: 53px;
+  height: 3px;
+}
+.container-headd {
+  margin-left: 30px;
+  font-family: sans-serif;
+}
+.container-headd::before {
+  position: absolute;
+  content: "";
+  background-color: black;
+  bottom: -330px;
+  width: 53px;
+  height: 3px;
+}
+.container-para {
+  margin-left: 30px;
+  font-family: sans-serif;
+  color: #6a6a6a;
+  line-height: 25px;
+  font-size: larger;
+}
+.container-paraa {
   margin-top: 50px;
-  margin-left: 850px;
+  margin-left: 30px;
+  font-family: sans-serif;
+  color: #6a6a6a;
+  line-height: 25px;
+  font-size: larger;
 }
-.flex-box {
-  width: 100px;
-  height: 100px;
-  border: 1px solid black;
-  margin-bottom: 10px;
+.container-link {
+  margin-left: 30px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid blue;
+  text-decoration: none;
+  padding: 15px 30px;
+  color: blue;
+  font-family: sans-serif;
 }
-
-.flexx {
-  margin-top: -448px;
-  margin-left: 960px;
-}
-.flexx-box {
-  width: 100px;
-  height: 100px;
-  border: 1px solid black;
-  margin-bottom: 10px;
-}
-
-.flexxx {
-  margin-top: -448px;
-  margin-left: 1070px;
-}
-.flexxx-box {
-  width: 100px;
-  height: 100px;
-  border: 1px solid black;
-  margin-bottom: 10px;
+.container-linkk {
+  margin-left: 30px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid blue;
+  text-decoration: none;
+  padding: 15px 30px;
+  color: blue;
+  font-family: sans-serif;
 }
 
-.flexxxx {
-  margin-top: -448px;
-  margin-left: 1180px;
+.technology {
+  background-color: #f7f7f7;
+  display: flex;
 }
-.flexxxx-box {
-  width: 100px;
-  height: 100px;
-  border: 1px solid black;
-  margin-bottom: 10px;
+.technology-para {
+  width: 750px;
+  height: 600px;
 }
-
+.technology-box {
+  width: 600px;
+  height: 600px;
+}
 .technology-head {
   margin-left: 70px;
   font-family: sans-serif;
   font-size: 40px;
 }
-.technology-para {
+.technology-head::before {
+  position: absolute;
+  content: "";
+  background-color: black;
+  bottom: -750px;
+  width: 53px;
+  height: 3px;
+}
+.technology-pa {
   margin-left: 70px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.process-head {
+  padding-top: 50px;
+  margin-left: 70px;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+.process-head::before {
+  position: absolute;
+  content: "";
+  background-color: black;
+  bottom: -1315px;
+  width: 53px;
+  height: 3px;
+}
+.process-para {
+  margin-top: 50px;
+  margin-left: 70px;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.pflex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.pflex-flexbox {
+  width: 250px;
+  height: 100px;
+  background-color: white;
+  margin-left: 70px;
+}
+.pflex-flexboxx {
+  width: 250px;
+  height: 100px;
+  background-color: white;
+  justify-content: space-between;
+}
+.pflex-flexboxxx {
+  width: 250px;
+  height: 100px;
+  background-color: white;
+  justify-content: space-between;
+}
+.pflex-flexboxxxx {
+  width: 250px;
+  height: 470px;
+  justify-content: space-between;
+  margin-right: 70px;
+}
+.pflex-img {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.pflex-head {
+  margin-left: 30px;
+  font-family: sans-serif;
+}
+.pflex-headd {
+  margin-top: 40px;
+  margin-left: 30px;
+  font-family: sans-serif;
+}
+.pflex-para {
+  margin-left: 30px;
+  font-family: sans-serif;
+  color: #6a6a6a;
+  line-height: 25px;
+  font-size: medium;
+}
+.pflex-paraa {
+  margin-left: 30px;
+  font-family: sans-serif;
+  color: #6a6a6a;
+  line-height: 25px;
+  font-size: medium;
+}
+
+section {
+  background-color: #f7f7f7;
+  font-family: helvetica;
+  text-transform: uppercase;
+  overflow-x: hidden;
+}
+section div {
+  display: flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  min-width: 100%;
+}
+section div .news-message {
+  display: flex;
+  flex-shrink: 0;
+  height: 50px;
+  align-items: center;
+  animation: slide-left 20s linear infinite;
+  padding-top: 50px;
+}
+section div .news-message p {
+  font-size: 2.5em;
+  font-weight: 100;
+  padding-left: 0.5em;
+}
+@keyframes slide-left {
+  from {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+.footercontainer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  width: 1350px;
+  padding-top: 50px;
+}
+.footercontainer-para {
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding-top: 30px;
+  margin-left: 550px;
+}
+.footercontainer-link {
+  padding-top: 20px;
+  margin-right: 50px;
+  margin-left: -150px;
+}
+
+.contactflex {
+  display: flex;
+  height: 650px;
+  width: 1350px;
+  background-image: url(https://mojgenie.com/img/enquiry-bg.jpg);
+}
+.contactflex-text {
+  width: 600px;
+  height: 650px;
+}
+.contactflex-form {
+  width: 400px;
+  margin-top: 30px;
+}
+.contactflex-head {
+  color: white;
+  padding-top: 50px;
+  margin-left: 70px;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.contactflex-para {
+  color: white;
+  margin-left: 70px;
+}
+
+#contact input[type=text], #contact input[type=email], #contact input[type=tel], #contact input[type=url], #contact textarea, #contact button[type=submit] {
+  font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  margin-left: 1px;
+  background: white;
+  padding: 25px;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  margin: 50px 0;
+}
+
+#contact h3 {
+  color: blacl;
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type=text], #contact input[type=email], #contact input[type=tel], #contact input[type=url], #contact textarea {
+  width: 100%;
+  border: 1px solid #CCC;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type=text]:hover, #contact input[type=email]:hover, #contact input[type=tel]:hover, #contact input[type=url]:hover, #contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #AAA;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type=submit] {
+  cursor: pointer;
+  width: 100%;
+  border: 1px solid blue;
+  background: white;
+  color: bl;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type=submit]:hover {
+  background: blue;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type=submit]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus, #contact textarea:focus {
+  outline: 0;
+  border: 1px solid #999;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+.move {
+  background-color: #f7f7f7;
+  width: 1350px;
+  height: 200px;
+  padding-bottom: 50px;
+}
+.move-para {
+  margin-top: -100px;
+  font-family: sans-serif;
+  color: #6a6a6a;
+  margin-left: 600px;
+  padding-top: 50px;
+}
+
+.squre {
+  display: flex;
+  gap: 10px;
+}
+.squre-box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #dee2e6;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.squre-img {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.squre-p {
+  margin-left: 20px;
+  margin-top: 0px;
+}
+.squre-php {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.squre-ph {
+  margin-left: 35px;
+  margin-top: 8px;
+}
+.squre-pweb {
+  margin-left: 40px;
+  margin-top: 0px;
+}
+.squre-Java {
+  margin-left: 0px;
+  margin-top: -10px;
+}
+.squre-pJava {
+  margin-left: 30px;
+  margin-top: -20px;
+}
+.squre-aws {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.squre-paws {
+  margin-left: 35px;
+  margin-top: -3px;
 }
 
 /*# sourceMappingURL=style.css.map */
