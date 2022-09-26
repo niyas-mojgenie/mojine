@@ -9,13 +9,16 @@
         
     }
     &-head::before{
-        position: absolute;
-        content: "";
         
-        background-color: black;
-        bottom: 100px;
-        width: 53px;
-        height: 3px;
+            position: absolute;
+            content: "";
+            left: 75px;
+            bottom: 100px;
+            background-color: #242424;
+            width: 53px;
+            height: 3px;
+        
+        
         
 
         

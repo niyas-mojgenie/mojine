@@ -4,13 +4,12 @@
   justify-content: space-between;
   margin-right: 100px;
   position: sticky;
-  margin-top: 0;
   width: 100%;
   background-color: rgb(255, 255, 255);
 }
 .nav .logo {
   height: 70px;
-  padding-left: 80px;
+  padding-left: 70px;
 }
 
 .link-item {
@@ -64,8 +63,9 @@ body {
 .content-head::before {
   position: absolute;
   content: "";
-  background-color: black;
+  left: 75px;
   bottom: 100px;
+  background-color: #242424;
   width: 53px;
   height: 3px;
 }
@@ -323,7 +323,7 @@ section div .news-message p {
   background-color: black;
   display: flex;
   justify-content: space-between;
-  height: 150px;
+  height: 120px;
   width: 1350px;
   padding-top: 50px;
 }
@@ -526,6 +526,170 @@ fieldset {
 .squre-paws {
   margin-left: 35px;
   margin-top: -3px;
+}
+
+.contacthero {
+  background-image: url(https://mojgenie.com/img/contact.jpg);
+  height: 397px;
+  margin-top: -50px;
+}
+.contacthero-head {
+  color: white;
+  font-family: sans-serif;
+  margin-left: 70px;
+  padding-top: 150px;
+  font-size: 64px;
+}
+
+.flexcontainer {
+  display: flex;
+}
+.flexcontainer-box {
+  width: 130px;
+  height: 100px;
+}
+.flexcontainer-box1 {
+  width: 350px;
+  height: 100px;
+}
+.flexcontainer-img {
+  margin-left: 70px;
+}
+.flexcontainer-para {
+  margin-top: 0px;
+  margin-left: 40px;
+  font-size: 19px;
+  font-family: "Inter", sans-serif;
+  margin-top: 0px;
+}
+
+.writings-head {
+  margin-left: 70px;
+  font-family: sans-serif;
+  font-size: 35px;
+  line-height: 42px;
+  margin-top: 70px;
+}
+.writings-para {
+  margin-left: 70px;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.form2 {
+  margin-top: 70px;
+  background-image: url(https://mojgenie.com/img/enquiry-bg.jpg);
+  background-size: 130%;
+  height: 790px;
+  display: flex;
+}
+.form2-text {
+  width: 630px;
+  height: 650px;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+.form2-form {
+  width: 450px;
+  height: 650px;
+  margin-top: 70px;
+  background-color: white;
+}
+.form2-head {
+  margin-top: -10px;
+  color: white;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.form2-para {
+  color: white;
+}
+
+.contactfooter {
+  background-color: black;
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.contactfooter-img {
+  color: white;
+  margin-left: 70px;
+}
+.contactfooter-para {
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 750px;
+  margin-right: 20pt;
+}
+
+.form {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.form-head {
+  margin-top: 50px;
+  padding-left: 50px;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+.form-para {
+  padding-left: 50px;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
+.form-feild {
+  border: 1px solid #ced4da;
+  width: 350px;
+  height: 40px;
+}
+.form-button {
+  border: 1px solid rgb(134, 134, 188);
+  background-color: white;
+  color: rgb(134, 134, 188);
+  width: 350px;
+  height: 40px;
+}
+.form-button:hover {
+  background: rgb(89, 89, 154);
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navb {
+  display: flex;
+  margin-left: 70px;
+  background-color: white;
+  padding-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-right: 35px;
+  position: fixed;
+  margin-top: 0px;
+  padding-top: 20px;
+}
+.navb-nav {
+  margin-left: 500px;
+  margin-top: 25px;
+}
+.navb-logo {
+  margin-left: 70px;
+  margin-top: 10px;
+  margin-bottom: 0pt;
+}
+.navb-text {
+  margin-left: 0px;
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  margin-top: 10px;
+  margin-right: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

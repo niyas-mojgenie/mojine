@@ -1,0 +1,38 @@
+.form2{
+    margin-top: 70px;
+    background-image: url(https://mojgenie.com/img/enquiry-bg.jpg);
+    background-size: 130%;
+    height: 790px;
+    display: flex;
+    &-text{
+        width: 630px;
+        height: 650px;
+        margin-top: 70px;
+        // border: 1px solid black;
+        margin-left: 70px;
+
+    }
+    &-form{
+        width: 450px;
+        height: 650px;
+        // border: 1px solid black;
+        margin-top: 70px;
+        background-color: white;
+        
+
+    }
+    &-head{
+        margin-top: -10px;
+        color: white;
+        font-size: 50px;
+        font-family: sans-serif;
+
+    }
+    &-para{
+        color: white;
+        
+
+    }
+    
+    
+}

@@ -1,0 +1,31 @@
+.contactfooter{
+   
+    background-color: black;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+    &-img{
+        color: white;
+        // border: 1px solid white;
+        margin-left: 70px;
+
+
+    }
+    &-link{
+        
+        
+        
+
+    }
+    &-para{
+        color: white;
+        // border: 1px solid white;
+        font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 750px;
+    margin-right: 20pt;
+
+    }
+}

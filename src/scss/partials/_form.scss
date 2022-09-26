@@ -1,0 +1,38 @@
+.form{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    &-head{
+        margin-top: 50px;
+        padding-left: 50px;
+        font-family: sans-serif;
+        font-size: 30px;
+    }
+    &-para{
+        padding-left: 50px;
+        font-size: 20px;
+        font-family: 'Inter', sans-serif;
+    }
+    &-feild{
+        border: 1px solid #ced4da;
+        width: 350px;
+        height: 40px;
+
+    }
+    &-button{
+        border: 1px solid rgb(134, 134, 188);
+        background-color: white;
+        color: rgb(134, 134, 188);
+        width: 350px;
+        height: 40px;
+
+    }
+    &-button:hover {
+        background:rgb(89, 89, 154);
+        -webkit-transition:background 0.3s ease-in-out;
+        -moz-transition:background 0.3s ease-in-out;
+        transition:background-color 0.3s ease-in-out;
+    }
+
+}
