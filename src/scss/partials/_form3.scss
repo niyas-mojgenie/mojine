@@ -1,0 +1,50 @@
+.form3{
+    margin-top: 0px;
+    // background-image: url(https://mojgenie.com/img/enquiry-bg.jpg);
+    background-size: 130%;
+    height: 790px;
+    display: flex;
+    // background-color: #f1abab;
+    padding-bottom: 50px;
+    &-text{
+        width: 630px;
+        height: 650px;
+        margin-top: 70px;
+        // border: 1px solid black;
+        margin-left: 70px;
+
+    }
+    &-form{
+        width: 450px;
+        height: 650px;
+        // border: 1px solid black;
+        margin-top: 70px;
+        background-color: #f7f7f7;
+        margin-left: 50px;
+        margin-top: 110px;
+        
+
+    }
+    &-head{
+        margin-top: -10px;
+        color: black;
+        font-size: 50px;
+        font-family: sans-serif;
+    }
+
+
+        
+    &-para{
+        color:black;
+        font-size: 20px;
+        font-family: 'Inter', sans-serif;
+        
+
+    }
+    &-img{
+        max-width: 500px;
+        // margin-left: -50px;
+    }
+    
+    
+}

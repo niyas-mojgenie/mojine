@@ -4,6 +4,7 @@
   justify-content: space-between;
   margin-right: 100px;
   position: sticky;
+  top: 0;
   width: 100%;
   background-color: rgb(255, 255, 255);
 }
@@ -30,7 +31,6 @@
   font-family: sans-serif;
   margin-left: 70px;
   padding-top: 60px;
-  padding-left: pt;
   margin-top: 20px;
 }
 .hero-para {
@@ -690,6 +690,115 @@ fieldset {
   font-family: sans-serif;
   margin-top: 10px;
   margin-right: 20px;
+}
+
+.form3 {
+  margin-top: 0px;
+  background-size: 130%;
+  height: 790px;
+  display: flex;
+  padding-bottom: 50px;
+}
+.form3-text {
+  width: 630px;
+  height: 650px;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+.form3-form {
+  width: 450px;
+  height: 650px;
+  margin-top: 70px;
+  background-color: #f7f7f7;
+  margin-left: 50px;
+  margin-top: 110px;
+}
+.form3-head {
+  margin-top: -10px;
+  color: black;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.form3-para {
+  color: black;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
+.form3-img {
+  max-width: 500px;
+}
+
+.form {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background-color: #f7f7f7;
+}
+.form-head {
+  margin-top: 50px;
+  padding-left: 50px;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+.form-para {
+  padding-left: 50px;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
+.form-feild {
+  border: 1px solid #ced4da;
+  width: 350px;
+  height: 40px;
+}
+.form-button {
+  border: 1px solid rgb(134, 134, 188);
+  background-color: white;
+  color: rgb(134, 134, 188);
+  width: 350px;
+  height: 40px;
+}
+.form-button:hover {
+  background: rgb(89, 89, 154);
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.getconsultaionform {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.getconsultaionform-head {
+  margin-top: 50px;
+  padding-left: 50px;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+.getconsultaionform-para {
+  padding-left: 50px;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
+.getconsultaionform-feild {
+  border: 1px solid #ced4da;
+  width: 350px;
+  height: 40px;
+}
+.getconsultaionform-button {
+  border: 1px solid rgb(134, 134, 188);
+  background-color: white;
+  color: rgb(134, 134, 188);
+  width: 350px;
+  height: 40px;
+}
+.getconsultaionform-button:hover {
+  background: rgb(89, 89, 154);
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 
 /*# sourceMappingURL=style.css.map */
